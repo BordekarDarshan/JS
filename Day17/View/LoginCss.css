@@ -1,0 +1,65 @@
+/* Primary Logic Container */
+.loginContainer {
+  padding: 50px 20px; /*(Top-Bottom) (Left-Right)*/
+  border: 1px solid #260a3d;
+  border-radius: 38px 38px 38px 38px;
+  -moz-border-radius: 38px 38px 38px 38px;
+  -webkit-border-radius: 38px 38px 38px 38px;
+  -webkit-box-shadow: 10px 14px 23px -2px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 10px 14px 23px -2px rgba(0, 0, 0, 0.58);
+  box-shadow: 10px 14px 23px -2px rgba(0, 0, 0, 0.58);
+  margin-top: 25vh;
+}
+
+/* Class Of Background Image */
+.backGroundC {
+  background: url(../Uploads/LoginBackGround.png) repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Usage : 2 Times...... 1.On Search Box 2. On Submit Button */
+.btnsuccess {
+  background: #bb266c;
+  color: #c0c0c0;
+  margin-top: 10px;
+}
+
+/* Login Container > Checkbox > [Remember Me] Text*/
+.checkbox > label {
+  color: #c0c0c0;
+}
+
+/* Login Container Heading [Login] Text*/
+.loginContainer > h3 {
+  color: #c0c0c0;
+}
+
+/* After Hover*/
+.btnsuccess:hover {
+  color: white;
+}
+
+/* Navigation Bar Css */
+/* Advanced CSS Generated With "cssmatic" website  */
+.navset {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #260a3d;
+  -webkit-box-shadow: 0px 10px 28px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 10px 28px -1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 10px 28px -1px rgba(0, 0, 0, 1);
+}
+
+/* Will Applied On all "a" i.e Anchor Tag's Text */
+a {
+  color: #c0c0c0;
+}
+
+a:hover {
+  color: #bb266c;
+}
+.foot {
+  background-color: rgba(87, 87, 87, 1);
+}
